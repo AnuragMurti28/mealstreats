@@ -1,0 +1,12 @@
+touch .gitignore
+git config --global user.name AnuragMurti28
+git config --global user.email anuragmurti28@gmail.com
+git init
+git add.
+git commit -, "Initial Commit"
+git status
+
+ssh-keygen -t ed25519 -C "anuragmurti28@gmail.com"
+SHA256:g5v6ECRZr1zTo1RzWSl0lKhsbfw8xYp9wgziWj19aRM /added this ssh key to github
+git remote add origin git@github.com:AnuragMurti28/mealstreats.git
+git push origin master
